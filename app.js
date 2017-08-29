@@ -13,4 +13,8 @@ var foo='bar';
   var testCase3 = {
     return true;
   };
+  
+  var automator = new Automator();
+  automator.run(testCase1);
+
 })();
