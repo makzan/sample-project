@@ -1,10 +1,21 @@
 var foo='bar';
 
 (function() {
-  // TODO
-  var testCase1 = {};
+  // TODO: Hardcoded value.
+  var testCase1 = {
+    return true;
+  };
 
-  var testCase2 = {};
+  var testCase2 = {
+    return false;
+  };
 
-  var testCase3 = {};
+  var testCase3 = {
+    return true;
+  };
+  
+  var automator = new Automator();
+  automator.run(testCase1);
+  automator.run(testCase2);
+
 })();
