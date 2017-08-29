@@ -16,5 +16,6 @@ var foo='bar';
   
   var automator = new Automator();
   automator.run(testCase1);
+  utomator.run(testCase2);
 
 })();
